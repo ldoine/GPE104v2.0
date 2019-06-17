@@ -19,14 +19,14 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         //These if statements are used to move the player when either the "A" key or "D" key are pressed
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
-        }
+       // if (Input.GetKey(KeyCode.A))
+       // {
+        //    transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
+       // }
+       // if (Input.GetKey(KeyCode.D))
+       // {
+        //    transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+       // }
         if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);

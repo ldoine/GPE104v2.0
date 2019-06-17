@@ -62,7 +62,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DamageManager.cs" />
+    <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\EnemyShip.cs" />
+    <Compile Include="Assets\Scripts\ForwardMovement.cs" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\PlayerLives.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayerShooting.cs" />
+    <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
+    <Compile Include="Assets\Scripts\SelfDestruct.cs" />
+    <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/ddoin/Desktop/UwU/OwO/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
