@@ -22,6 +22,7 @@ public class Extras : MonoBehaviour
         //This will close out of the game
         if (Input.GetKey(KeyCode.Escape))
         {
+            Debug.Log("Game quit");
             Application.Quit();
         }
         //This will stop all player movement
